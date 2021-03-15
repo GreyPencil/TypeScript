@@ -1,0 +1,26 @@
+{
+  /*Configuration options
+  include: choose the file you want to compile
+  */
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [],
+  /*compilerOptions*/
+  "compilerOptions": {
+    //    "target": "ES3"
+    "target": "ES6",
+    "module": "ES2015",
+    //    "lib": ["DOM","ES6"]
+    "outDir": "./dist",
+    //    "outFile": "./dist/app.js" only 'amd' and 'system' modules are supported alongside --outFile
+    "allowJs": true,
+    "checkJs": true,
+    "removeComments": false,
+    "noEmit": false,
+    "noEmitOnError": true,
+    "alwaysStrict": true,
+    "noImplicitAny": false,
+    "strict": true
+  }
+}
