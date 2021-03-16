@@ -66,6 +66,7 @@
     // per.setAge(-33);
 
     per.name = 'cabbage';
+    //cannot change
     per.age = -33;
 
     // console.log(per);
