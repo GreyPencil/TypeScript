@@ -114,3 +114,6 @@ to package.json
 ## babel
 #### 1. install
 ```npm i -D @babel/core @babel/preset-env babel-loader core-js```
+
+
+## Class
