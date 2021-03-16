@@ -26,6 +26,7 @@
     }
 
     const dog = new Dog(3, "meatball");
-    
+    dog.bark();
+
 
 })();
