@@ -37,6 +37,7 @@ class MyClass<T>{
 }
 
 const mc = new MyClass<string>('carrot');
+//or
 const mc2 = new MyClass('carrot');
 
 
